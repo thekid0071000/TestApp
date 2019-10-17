@@ -16,36 +16,14 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-var key1 = "phone";
-var value1 = "black";
-var key2 = "pen";
-var value2 = "blue";
-var key3 = "cable";
-var value3 = "white";
-var key4 = "wallet";
-var value4 = "black";
-var key5 = "watch";
-var value5 = "grey";
 
-window.localStorage.setItem(key1, value1);
-window.localStorage.setItem(key2, value2);
-window.localStorage.setItem(key3, value3);
-window.localStorage.setItem(key4, value4);
-window.localStorage.setItem(key5, value5);
+var chocobar = {
+	"name" : "Mars",
+	"flavour" : "Chocolate",
+	"calories" : "450"
+}
 
-
-var message1 = window.localStorage.getItem (key1);
-alert (message1);
-var message2 = window.localStorage.getItem(key2);
-alert(message2);
-var message3 = window.localStorage.getItem(key3);
-alert(message3);
-var message4 = window.localStorage.getItem(key4);
-alert(message4);
-var message5 = window.localStorage.getItem(key5);
-alert (message5);
-
-alert(window.localStorage.length);
+alert("The chocolate bar " + chocobar.name + " " + "has " + chocobar.flavour + " " + "flavour and it also has " + chocobar.calories + ".");
 
 
 
