@@ -17,14 +17,15 @@
  * under the License.
  */
 
-var chocobar = {
-	"name" : "Mars",
-	"flavour" : "Chocolate",
-	"calories" : "450"
+var man = {
+	"name" : "John",
+	"occupation" : "salesman",
+	"cars" : ["Ford", "Honda" , "BMW"]	
 }
 
-alert("The chocolate bar " + chocobar.name + " " + "has " + chocobar.flavour + " " + "flavour and it also has " + chocobar.calories + ".");
+var bmw = man.cars[2];
 
+alert (bmw);
 
 
 var app = {
