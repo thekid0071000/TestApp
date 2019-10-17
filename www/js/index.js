@@ -34,8 +34,19 @@ window.localStorage.setItem(key4, value4);
 window.localStorage.setItem(key5, value5);
 
 
-var value = window.localStorage.getItem (key1);
-alert (value);
+var message1 = window.localStorage.getItem (key1);
+alert (message1);
+var message2 = window.localStorage.getItem(key2);
+alert(message2);
+var message3 = window.localStorage.getItem(key3);
+alert(message3);
+var message4 = window.localStorage.getItem(key4);
+alert(message4);
+var message5 = window.localStorage.getItem(key5);
+alert (message5);
+
+alert(window.localStorage.length);
+
 
 
 var app = {
